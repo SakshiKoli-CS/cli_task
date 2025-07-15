@@ -28,9 +28,6 @@ jobs:
         run: |
           echo "📝 Latest Commit Message:"
           git log -1 --pretty=format:"%s"
-        
-      - name: Use .cs-launch config file
-        run: csdx launch --config=.cs-launch
 
       - name: Install Contentstack CLI
         run: npm install -g @contentstack/cli
