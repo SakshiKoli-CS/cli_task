@@ -9,3 +9,73 @@
 {"level":"info","message":"2025-07-15 10:08:01.583:  =========================================================="}
 {"level":"info","message":"2025-07-15 10:08:03.965:  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful."}
 {"level":"info","message":"2025-07-15 10:08:05.266:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Deployment process started.!"}
+{"level":"info","message":"2025-07-15 10:17:37.583:  Installing dependencies..."}
+{"level":"info","message":"2025-07-15 10:17:43.654:  =========================================================="}
+{"level":"info","message":"2025-07-15 10:17:43.661:  Current Node.js Version: v22.17.0"}
+{"level":"info","message":"2025-07-15 10:17:43.663:  =========================================================="}
+{"level":"info","message":"2025-07-15 10:17:46.367:  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful."}
+{"level":"info","message":"2025-07-15 10:17:47.616:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"2025-07-15 10:17:56.187:  added 419 packages, and audited 420 packages in 12s"}
+{"level":"info","message":"2025-07-15 10:17:56.190:  82 packages are looking for funding"}
+{"level":"info","message":"2025-07-15 10:17:56.192:    run `npm fund` for details"}
+{"level":"info","message":"2025-07-15 10:17:56.193:  found 0 vulnerabilities"}
+{"level":"info","message":"2025-07-15 10:18:00.067:  Init build..."}
+{"level":"info","message":"2025-07-15 10:18:01.692:  > pages-router-demo2@1.0.0 build"}
+{"level":"info","message":"2025-07-15 10:18:01.694:  > next build"}
+{"level":"info","message":"2025-07-15 10:18:02.535:  Attention: Next.js now collects completely anonymous telemetry regarding usage."}
+{"level":"info","message":"2025-07-15 10:18:02.537:  This information is used to shape Next.js' roadmap and prioritize features."}
+{"level":"info","message":"2025-07-15 10:18:02.539:  You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:"}
+{"level":"info","message":"2025-07-15 10:18:02.541:  https://nextjs.org/telemetry"}
+{"level":"info","message":"2025-07-15 10:18:02.654:     ▲ Next.js 15.3.5"}
+{"level":"info","message":"2025-07-15 10:18:02.656:     Linting and checking validity of types ..."}
+{"level":"info","message":"2025-07-15 10:18:04.719:     Creating an optimized production build ..."}
+{"level":"info","message":"2025-07-15 10:18:13.303:   ✓ Compiled successfully in 4.0s"}
+{"level":"info","message":"2025-07-15 10:18:13.305:     Collecting page data ..."}
+{"level":"info","message":"2025-07-15 10:18:15.442:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-15 10:18:16.004:     Generating static pages (0/9) ..."}
+{"level":"info","message":"2025-07-15 10:18:17.656:  Live_Preview_SDK: The SDK is not initialized in the browser."}
+{"level":"info","message":"2025-07-15 10:18:17.793:     Generating static pages (2/9)"}
+{"level":"info","message":"2025-07-15 10:18:17.795:     Generating static pages (4/9)"}
+{"level":"info","message":"2025-07-15 10:18:17.797:     Generating static pages (6/9)"}
+{"level":"info","message":"2025-07-15 10:18:17.815:  Error in getStaticProps: {"}
+{"level":"info","message":"2025-07-15 10:18:17.818:    error_message: \"We can't find that Stack. Please try again.\","}
+{"level":"info","message":"2025-07-15 10:18:17.820:    error_code: 109,"}
+{"level":"info","message":"2025-07-15 10:18:17.822:    errors: { api_key: [ 'is not valid.' ] },"}
+{"level":"info","message":"2025-07-15 10:18:17.824:    status: 412,"}
+{"level":"info","message":"2025-07-15 10:18:17.825:    statusText: 'Precondition Failed'"}
+{"level":"info","message":"2025-07-15 10:18:17.827:  }"}
+{"level":"info","message":"2025-07-15 10:18:18.016:   ✓ Generating static pages (9/9)"}
+{"level":"info","message":"2025-07-15 10:18:22.726:     Finalizing page optimization ..."}
+{"level":"info","message":"2025-07-15 10:18:22.728:     Collecting build traces ..."}
+{"level":"info","message":"2025-07-15 10:18:38.699:  Route (pages)                                 Size  First Load JS  Revalidate  Expire"}
+{"level":"info","message":"2025-07-15 10:18:38.701:  ┌ ● / (1320 ms)                            4.87 kB         204 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.703:  ├   └ css/ee2f99e44e6c311c.css               699 B"}
+{"level":"info","message":"2025-07-15 10:18:38.705:  ├   /_app                                      0 B         199 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.707:  ├ ○ /404                                     190 B         199 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.709:  ├ ƒ /api/posts/[id]                            0 B         199 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.710:  ├ ƒ /api/revalidate/[id]                       0 B         199 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.712:  ├ ƒ /api/song                                  0 B         199 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.714:  ├ ● /live-preview-demo (1118 ms)             516 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-15 10:18:38.716:  ├ ● /posts-with-odr/[id]                     492 B         199 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.717:  ├ ● /posts/[id] (5457 ms)                    508 B         199 kB         10s      1y"}
+{"level":"info","message":"2025-07-15 10:18:38.719:  ├   ├ /posts/4 (1100 ms)"}
+{"level":"info","message":"2025-07-15 10:18:38.721:  ├   ├ /posts/1 (1090 ms)"}
+{"level":"info","message":"2025-07-15 10:18:38.723:  ├   ├ /posts/2 (1090 ms)"}
+{"level":"info","message":"2025-07-15 10:18:38.725:  ├   ├ /posts/5 (1089 ms)"}
+{"level":"info","message":"2025-07-15 10:18:38.726:  ├   └ /posts/3 (1088 ms)"}
+{"level":"info","message":"2025-07-15 10:18:38.728:  └ ƒ /shuffle-products                        621 B         199 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.730:  + First Load JS shared by all               199 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.732:    ├ chunks/framework-2f335d22a7318891.js   57.7 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.734:    ├ chunks/main-bad4cb12d4b6cdec.js        33.9 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.735:    ├ chunks/pages/_app-459ca665290d265d.js   106 kB"}
+{"level":"info","message":"2025-07-15 10:18:38.737:    └ other shared chunks (total)              801 B"}
+{"level":"info","message":"2025-07-15 10:18:38.739:  ○  (Static)   prerendered as static content"}
+{"level":"info","message":"2025-07-15 10:18:38.741:  ●  (SSG)      prerendered as static HTML (uses getStaticProps)"}
+{"level":"info","message":"2025-07-15 10:18:38.742:  ƒ  (Dynamic)  server-rendered on demand"}
+{"level":"info","message":"2025-07-15 10:18:39.985:  Build successful"}
+{"level":"info","message":"2025-07-15 10:18:39.987:  Cloud functions:"}
+{"level":"info","message":"2025-07-15 10:18:40.129:  None"}
+{"level":"info","message":"2025-07-15 10:19:40.162:  Build and hosting process completed successfully"}
+{"level":"info","message":"2025-07-15 10:19:41.287:  Site is live"}

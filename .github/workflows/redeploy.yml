@@ -28,6 +28,9 @@ jobs:
         run: |
           echo "📝 Latest Commit Message:"
           git log -1 --pretty=format:"%s"
+        
+      - name: Use .cs-launch config file
+        run: csdx launch --config=.cs-launch
 
       - name: Install Contentstack CLI
         run: npm install -g @contentstack/cli
@@ -47,7 +50,7 @@ jobs:
 
       - name: Deploy using Launch config
         run: 
-            csdx launch --redeploy-latest --environment 6876145be7ee499da7ce068d
+            csdx launch --redeploy-latest --environment 6876145be7ee499da7ce068d --config=.cs-launch
             
         # csdx launch --type FileUpload --config="/Users/sakshi.koli/Desktop/cli_task/cs-launchTest.json" --redeploy-latest
 
