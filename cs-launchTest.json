@@ -14,7 +14,15 @@
     ],
     "__typename": "Project",
     "deployments": [
+      {},
       {
+        "uid": "68762190e7ee499da7ce2070",
+        "status": "QUEUED",
+        "createdAt": "2025-07-15T09:38:24.509Z",
+        "updatedAt": "2025-07-15T09:38:24.509Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "clitask-test.devcontentstackapps.com",
+        "__typename": "Deployment"
       }
     ]
   }

@@ -47,7 +47,7 @@ jobs:
 
       - name: Deploy using Launch config
         run: 
-            csdx launch --config=./config/cs-launchTest.json --data-dir=./ --redeploy-latest
+            csdx launch --data-dir=./ environment test --redeploy-latest
 
         # ADD ENVIRONMENT FLAG IF YOU HAVE DIFFERENT ENVIRONMENT AND YOU WANT TO DEPLOY IN THE SPECIFIC ENVIRONMENT
         # --environment EnvironmentName 

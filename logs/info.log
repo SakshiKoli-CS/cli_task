@@ -66,3 +66,16 @@
 {"level":"info","message":"Existing launch project identified"}
 {"level":"info","message":"Deployment process started.!"}
 {"level":"info","message":"Existing launch project identified"}
+{"level":"warn","message":"Unable to fetch organizations."}
+{"level":"warn","message":"Unable to fetch organizations."}
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Existing launch project identified"}
+{"level":"info","message":"Deployment process started.!"}
+{"level":"info","message":"2025-07-15 09:38:38.387:  Installing dependencies..."}
+{"level":"info","message":"2025-07-15 09:38:42.779:  =========================================================="}
+{"level":"info","message":"2025-07-15 09:38:42.787:  Current Node.js Version: v22.17.0"}
+{"level":"info","message":"2025-07-15 09:38:42.789:  =========================================================="}
+{"level":"info","message":"2025-07-15 09:38:45.503:  npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful."}
+{"level":"info","message":"2025-07-15 09:38:46.944:  npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported"}
+{"level":"info","message":"2025-07-15 09:38:56.180:  added 419 packages, and audited 420 packages in 13s"}
