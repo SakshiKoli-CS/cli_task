@@ -40,6 +40,15 @@
         "commitMessage": "Triggered By File Upload",
         "deploymentUrl": "clitask-test.devcontentstackapps.com",
         "__typename": "Deployment"
+      },
+      {
+        "uid": "68765150e7ee499da7ce3e3c",
+        "status": "QUEUED",
+        "createdAt": "2025-07-15T13:02:08.794Z",
+        "updatedAt": "2025-07-15T13:02:08.794Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "clitask-test.devcontentstackapps.com",
+        "__typename": "Deployment"
       }
     ]
   }
