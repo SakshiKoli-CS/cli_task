@@ -46,7 +46,7 @@ jobs:
           csdx auth:login -u "$CSDX_EMAIL" -p "$CSDX_PASSWORD"
 
       - name: Deploy using Launch config
-        run: csdx launch -d=/Users/sakshi.koli/Desktop/cli_task --config=/Users/sakshi.koli/Desktop/cli_task/config/.cs-launchTest.json --redeploy-latest
+        run: csdx launch -d=. --config=./config/.cs-launchTest.json --redeploy-latest
 
 
         # ADD ENVIRONMENT FLAG IF YOU HAVE DIFFERENT ENVIRONMENT AND YOU WANT TO DEPLOY IN THE SPECIFIC ENVIRONMENT
