@@ -21,6 +21,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Check for .cs-launch file
+        run: |
+         echo "Current directory:"
+         pwd
+         echo "Files including dotfiles:"
+         ls -la
+
       - name: Build the project
         run: npm run build
 
