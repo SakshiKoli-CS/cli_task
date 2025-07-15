@@ -1,0 +1,37 @@
+{
+  "project": {
+    "uid": "687612c34a4bd83cdcc3bc22",
+    "name": "cli_task",
+    "projectType": "FILEUPLOAD",
+    "organizationUid": "blt8ca9ce72e25d0172",
+    "environments": [
+      {
+        "uid": "6876145be7ee499da7ce068d",
+        "name": "test",
+        "frameworkPreset": "NEXTJS",
+        "__typename": "Environment"
+      }
+    ],
+    "__typename": "Project",
+    "deployments": [
+      {
+        "uid": "687612c44a4bd83cdcc3bc34",
+        "status": "QUEUED",
+        "createdAt": "2025-07-15T08:35:16.829Z",
+        "updatedAt": "2025-07-15T08:35:17.037Z",
+        "deploymentUrl": "clitask.devcontentstackapps.com",
+        "commitMessage": "Triggered By File Upload",
+        "__typename": "Deployment"
+      },
+      {
+        "uid": "68761539e7ee499da7ce0a24",
+        "status": "QUEUED",
+        "createdAt": "2025-07-15T08:45:45.210Z",
+        "updatedAt": "2025-07-15T08:45:45.210Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "clitask-test.devcontentstackapps.com",
+        "__typename": "Deployment"
+      }
+    ]
+  }
+}
