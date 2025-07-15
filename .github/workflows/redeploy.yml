@@ -54,7 +54,7 @@ jobs:
 
       - name: Deploy using Launch config
         run: 
-          csdx launch --environment 6876145be7ee499da7ce068d --config=/Users/sakshi.koli/Desktop/cli_task/.cs-launch.json
+          csdx launch --type FileUpload --environment 6876145be7ee499da7ce068d --config=/Users/sakshi.koli/Desktop/cli_task/.cs-launch.json
           
         #  csdx launch --environment 6876145be7ee499da7ce068d --config=./.cs-launch.json --redeploy-latest
             
