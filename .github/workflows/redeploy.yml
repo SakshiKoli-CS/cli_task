@@ -47,7 +47,7 @@ jobs:
 
       - name: Deploy using Launch config
         run: 
-            csdx launch --type FileUpload --d "./" --config="root/cli_task/cs-launchTest.json" --redeploy-latest
+            csdx launch --redeploy-latest --environment 6876145be7ee499da7ce068d
             
         # csdx launch --type FileUpload --config="/Users/sakshi.koli/Desktop/cli_task/cs-launchTest.json" --redeploy-latest
 

@@ -22,6 +22,15 @@
         "deploymentUrl": "clitask.devcontentstackapps.com",
         "commitMessage": "Triggered By File Upload",
         "__typename": "Deployment"
+      },
+      {
+        "uid": "687628704a4bd83cdcc3e1e4",
+        "status": "QUEUED",
+        "createdAt": "2025-07-15T10:07:44.288Z",
+        "updatedAt": "2025-07-15T10:07:44.288Z",
+        "commitMessage": "Triggered By File Upload",
+        "deploymentUrl": "clitask-test.devcontentstackapps.com",
+        "__typename": "Deployment"
       }
     ]
   }
